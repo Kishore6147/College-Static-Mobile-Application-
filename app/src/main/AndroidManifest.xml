@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GPCETCollege"
+        tools:targetApi="31">
+        <activity
+            android:name=".Mech_fac"
+            android:exported="false"
+            android:label="@string/title_activity_mech_fac"
+            android:theme="@style/Theme.GPCETCollege.NoActionBar" />
+        <activity
+            android:name=".content_scrolling6"
+            android:exported="false"
+            android:label="@string/title_activity_content_scrolling6"
+            android:theme="@style/Theme.GPCETCollege.NoActionBar" />
+        <activity
+            android:name=".civil_fac"
+            android:exported="false"
+            android:label="@string/title_activity_civil_fac"
+            android:theme="@style/Theme.GPCETCollege.NoActionBar" />
+        <activity
+            android:name=".eee_fac"
+            android:exported="false" />
+        <activity
+            android:name=".contentscrolling3"
+            android:exported="false"
+            android:label="@string/title_activity_contentscrolling3"
+            android:theme="@style/Theme.GPCETCollege.NoActionBar" />
+        <activity
+            android:name=".ece_fac"
+            android:exported="false"
+            android:label="@string/title_activity_ece_fac"
+            android:theme="@style/Theme.GPCETCollege.NoActionBar" />
+        <activity
+            android:name=".CSE_FAC"
+            android:exported="false"
+            android:label="@string/title_activity_cse_fac"
+            android:theme="@style/Theme.GPCETCollege.NoActionBar" />
+        <activity
+            android:name=".Branches2"
+            android:exported="false" />
+        <activity
+            android:name=".me4"
+            android:exported="false" />
+        <activity
+            android:name=".me3"
+            android:exported="false" />
+        <activity
+            android:name=".me2"
+            android:exported="false" />
+        <activity
+            android:name=".ME1"
+            android:exported="false" />
+        <activity
+            android:name=".Civil4"
+            android:exported="false" />
+        <activity
+            android:name=".Civil3"
+            android:exported="false" />
+        <activity
+            android:name=".Civil2"
+            android:exported="false" />
+        <activity
+            android:name=".Civil"
+            android:exported="false" />
+        <activity
+            android:name=".EEE4"
+            android:exported="false" />
+        <activity
+            android:name=".EEE3"
+            android:exported="false" />
+        <activity
+            android:name=".EEE2"
+            android:exported="false" />
+        <activity
+            android:name=".EEE"
+            android:exported="false" />
+        <activity
+            android:name=".ECE_4"
+            android:exported="false" />
+        <activity
+            android:name=".ECE_3"
+            android:exported="false" />
+        <activity
+            android:name=".ECE_2"
+            android:exported="false" />
+        <activity
+            android:name=".ECE"
+            android:exported="false" />
+        <activity
+            android:name=".Ai"
+            android:exported="false" />
+        <activity
+            android:name=".cse_IV"
+            android:exported="false" />
+        <activity
+            android:name=".cse_III"
+            android:exported="false" />
+        <activity
+            android:name=".IIyear_cse"
+            android:exported="false" />
+        <activity
+            android:name=".CSE"
+            android:exported="false"
+            android:label="@string/title_activity_cse"
+            android:theme="@style/Theme.GPCETCollege.NoActionBar" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".Branches"
+            android:exported="false" />
+        <activity
+            android:name=".Aboutcollege"
+            android:exported="false"
+            android:label="@string/title_activity_aboutcollege"
+            android:theme="@style/Theme.GPCETCollege.NoActionBar" />
+        <activity
+            android:name=".Widgets"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application
+        >
+
+</manifest>

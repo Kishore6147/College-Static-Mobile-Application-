@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">GPCET College</string>
+    <string name="about_college">About College</string>
+    <string name="title_activity_aboutcollege">Aboutcollege</string>
+    <string name="large_text">
+        "G. Pullaiah College of Engineering and Technology, Kurnool has been established in the"
+        "year 2007 and is run by Sri Sai Krishna Educational Society founded by devoted Pioneer duo"
+        "in the field of education Sri G. Pullaiah and his son Sri G.V.M Mohan Kumar, both having a"
+        "long and outstanding experience in educational system with the motto "Pioneering Innovative"
+        "Education". It is one of the best colleges to acquire an Engineering degree because it "
+        "stands out unique in every aspect starting from infrastructure to the labs and from faculty"
+        "to the Trainings being imparted to the students. It started as a regular Engineering "
+        "college unlike others and now it is an Autonomous college where it has become the student's"
+        "first choice with 100% admissions every year in the entire state of Andhra Pradesh."
+"GPCET is a prestigious Autonomous Engineering college offering Six B. Tech programs"
+        "Computer Science and Engineering, Computer Science and Engineering (Artificial Intelligence)",
+        "Electronics and Communication Engineering, Electrical and Electronics Engineering, "
+        "Mechanical Engineering, Civil Engineering and three M. Tech programmes in Engineering and "
+        "MBA (Master of Business Administration). The institute is approved by AICTE, New Delhi "
+        "besides being affiliated to Jawaharlal Nehru Technological University Anantapur (JNTUA). "
+        "It has also been accredited by National Assessment and Accreditation Council (NAAC) with "
+        "'A' Grade along with UGC recognition under Sections 2(f) and 12(B) of the UGC Act. Four "
+        "B. Tech programs have been accredited by National Board of Accreditation (NBA), New Delhi."
+"Features:"
+"• International Certification Programs"
+"• Flexible Academics"
+"• Smart Classrooms"
+"• Expert Faculty"
+"• Comfortable Transport Facility"
+"• Advanced Engineering Labs"
+
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="textview">TextView</string>
+    <string name="title_activity_cse">CSE</string>
+    <string name="title_activity_cse_fac">CSE_FAC</string>
+    <string name="title_activity_ece_fac">ece_fac</string>
+    <string name="title_activity_contentscrolling3">contentscrolling3</string>
+    <string name="title_activity_civil_fac">civil_fac</string>
+    <string name="title_activity_content_scrolling6">content_scrolling6</string>
+    <string name="title_activity_mech_fac">Mech_fac</string>
+</resources>

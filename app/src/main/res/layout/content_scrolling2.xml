@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:textAlignment="center"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="ExtraText,UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/banner" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="341dp"
+                android:paddingStart="100dp"
+                android:paddingEnd="80dp"
+                app:srcCompat="@drawable/hod" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                android:fontFamily="sans-serif-black"
+                android:paddingTop="20dp"
+                android:text="DR M.SRI LAKSHMI \n Computer Science and Engineering HOD, Associate Professor \n Faculty for:- Computer Networks And \n Web Technology"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp" />.
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="341dp"
+                android:paddingStart="100dp"
+                android:paddingTop="20dp"
+                android:paddingEnd="80dp"
+                app:srcCompat="@drawable/dj_sir" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="154dp"
+                android:fontFamily="sans-serif-black"
+                android:paddingTop="20dp"
+                android:text="MR D.JAYANARAYANA REDDY \n Computer Science and Engineering Assistant Professor \n Faculty For :- Artificial Intelligence And \n Machine Learning"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp" />.
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="341dp"
+                android:paddingStart="100dp"
+                android:paddingEnd="80dp"
+                android:paddingTop="20dp"
+                app:srcCompat="@drawable/roja_mam" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="154dp"
+                android:fontFamily="sans-serif-black"
+                android:paddingTop="20dp"
+                android:text="MISS B.ROJA RAMANI \n Computer Science and Engineering Assistant Professor \n Faculty For :- Cloud Computing"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp" />.
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="341dp"
+                android:paddingStart="100dp"
+                android:paddingEnd="80dp"
+                android:paddingTop="20dp"
+                app:srcCompat="@drawable/sowjanya_mam" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="154dp"
+                android:fontFamily="sans-serif-black"
+                android:paddingTop="20dp"
+                android:text="MRS B.SOWJANYA \n Computer Science and Engineering Assistant Professor \n Faculty For :- DEVOPS"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp" />.
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="341dp"
+                android:paddingStart="100dp"
+                android:paddingEnd="80dp"
+                android:paddingTop="20dp"
+                app:srcCompat="@drawable/js_mam" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="154dp"
+                android:fontFamily="sans-serif-black"
+                android:paddingTop="20dp"
+                android:text="MRS M.JAYA SUNITHA \n Computer Science and Engineering Assistant Professor \n Faculty For :- DAA"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp" />.
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="341dp"
+                android:paddingStart="100dp"
+                android:paddingEnd="80dp"
+                android:paddingTop="20dp"
+                app:srcCompat="@drawable/vijay_sir" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="154dp"
+                android:fontFamily="sans-serif-black"
+                android:paddingTop="20dp"
+                android:text="V.VIJAYA CHANDRA RAO \n Computer Science and Engineering Assistant Professor \n Faculty For :- DEVOPS"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp" />.
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="341dp"
+                android:paddingStart="100dp"
+                android:paddingEnd="80dp"
+                android:paddingTop="20dp"
+                app:srcCompat="@drawable/lakshmi_mam" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="154dp"
+                android:fontFamily="sans-serif-black"
+                android:paddingTop="20dp"
+                android:text="MRS K.LAKSHMI \n Computer Science and Engineering Assistant Professor \n Faculty For :- DAA"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp" />.
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="341dp"
+                android:paddingStart="100dp"
+                android:paddingEnd="80dp"
+                android:paddingTop="20dp"
+                app:srcCompat="@drawable/varaprasad" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="154dp"
+                android:fontFamily="sans-serif-black"
+                android:paddingTop="20dp"
+                android:text="MR R.VARA PRASAD \n Computer Science and Engineering Assistant Professor \n Faculty For :- PYTHON"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp" />.
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="341dp"
+                android:paddingStart="100dp"
+                android:paddingEnd="80dp"
+                android:paddingTop="20dp"
+                app:srcCompat="@drawable/prem_sir" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="154dp"
+                android:fontFamily="sans-serif-black"
+                android:paddingTop="20dp"
+                android:text="DR S.PREM KUMAR \n Computer Science and Engineering Assistant Professor \n Faculty For :- DBMS"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp" />.
+
+
+
+            <!-- Other views can be added here if needed -->
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.core.widget.NestedScrollView>

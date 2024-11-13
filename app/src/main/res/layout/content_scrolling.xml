@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="Aboutcollege"
+    android:textAlignment="center"
+    tools:showIn="@layout/activity_aboutcollege">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="ExtraText,UseCompoundDrawables">
+
+            <!-- Other views can be added here if needed -->
+
+            <ImageView
+                android:id="@+id/image_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/banner"
+                tools:ignore="ContentDescription" /> <!-- Replace this with your image resource -->
+            android:scaleType="fitXY" <!-- Adjust scale type as needed -->
+            android:adjustViewBounds="true" <!-- Adjust bounds as needed -->
+            android:padding="8dp" /> <!-- Adjust padding as needed -->
+
+            <!-- Other views can be added here if needed -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:fontFamily="sans-serif-black"
+                android:textSize="20dp"
+                android:text="@string/large_text" />
+
+
+        </LinearLayout></ScrollView>
+
+
+</androidx.core.widget.NestedScrollView>

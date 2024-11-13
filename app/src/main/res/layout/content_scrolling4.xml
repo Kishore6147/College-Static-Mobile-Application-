@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:textAlignment="center"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="ExtraText,UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/banner" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="341dp"
+                android:paddingStart="100dp"
+                android:paddingEnd="80dp"
+                app:srcCompat="@drawable/eee1at009" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                android:fontFamily="sans-serif-black"
+                android:paddingTop="20dp"
+                android:text="Dr.G.PANDU RANGA REDDY \n
+Electrical and Electronics Engineering \n
+HOD, Associate Professor"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp" />.
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="341dp"
+                android:paddingStart="100dp"
+                android:paddingTop="20dp"
+                android:paddingEnd="80dp"
+                app:srcCompat="@drawable/eee1at024" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="154dp"
+                android:fontFamily="sans-serif-black"
+                android:paddingTop="20dp"
+                android:text="Dr.M.Rama Prasad Reddy \n
+Electrical and Electronics Engineering \n
+Professor"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp" />.
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="341dp"
+                android:paddingStart="100dp"
+                android:paddingEnd="80dp"
+                android:paddingTop="20dp"
+                app:srcCompat="@drawable/eee1at002" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="154dp"
+                android:fontFamily="sans-serif-black"
+                android:paddingTop="20dp"
+                android:text="Mrs M BHAGYA LAKSHMI \n
+Electrical and Electronics Engineering \n
+Assistant Professor"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp" />.
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="341dp"
+                android:paddingStart="100dp"
+                android:paddingEnd="80dp"
+                android:paddingTop="20dp"
+                app:srcCompat="@drawable/eee1at004" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="154dp"
+                android:fontFamily="sans-serif-black"
+                android:paddingTop="20dp"
+                android:text="Mrs U CHAITANYA \n
+Electrical and Electronics Engineering \n
+Assistant Professor"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp" />.
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="341dp"
+                android:paddingStart="100dp"
+                android:paddingEnd="80dp"
+                android:paddingTop="20dp"
+                app:srcCompat="@drawable/eee1at016" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="154dp"
+                android:fontFamily="sans-serif-black"
+                android:paddingTop="20dp"
+                android:text="Mr Y HAZARATHAIAH \n
+Electrical and Electronics Engineering \n
+Assistant Professor"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp" />.
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="341dp"
+                android:paddingStart="100dp"
+                android:paddingEnd="80dp"
+                android:paddingTop="20dp"
+                app:srcCompat="@drawable/eee1at026" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="154dp"
+                android:fontFamily="sans-serif-black"
+                android:paddingTop="20dp"
+                android:text="Dr. A. Suresh Kumar \n
+Electrical and Electronics Engineering \n
+Assistant Professor
+
+"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp" />.
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="341dp"
+                android:paddingStart="100dp"
+                android:paddingEnd="80dp"
+                android:paddingTop="20dp"
+                app:srcCompat="@drawable/eee1at59" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="154dp"
+                android:fontFamily="sans-serif-black"
+                android:paddingTop="20dp"
+                android:text="Mr D Vannurappa \n
+Electrical and Electronics Engineering \n
+Assistant Professor"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp" />.
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="341dp"
+                android:paddingStart="100dp"
+                android:paddingEnd="80dp"
+                android:paddingTop="20dp"
+                app:srcCompat="@drawable/eee1at60" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="154dp"
+                android:fontFamily="sans-serif-black"
+                android:paddingTop="20dp"
+                android:text="Mr M A Nabi \n
+Electrical and Electronics Engineering \n
+Assistant Professor"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp" />.
+
+
+
+
+            <!-- Other views can be added here if needed -->
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.core.widget.NestedScrollView>
